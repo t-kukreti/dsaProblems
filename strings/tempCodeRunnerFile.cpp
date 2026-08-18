@@ -1,0 +1,1 @@
+hash =  (((hash - (s[i - len] - 'a' + 1) * power) % MOD + MOD) % MOD * 31 + (s[i] - 'a' + 1)) % MOD;
