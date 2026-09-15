@@ -10,9 +10,9 @@ void printVector(vector<string> &v){
     }
     cout << endl;
 }
-void solve(vector<string> &ans, int n, string &curr, int open, int close){
 
-    // base case
+void solve(vector<string> &ans, int n, string &curr, int open, int close){
+// base case
     if((open == n) && (close == n)){
         ans.push_back(curr);
         return ;
