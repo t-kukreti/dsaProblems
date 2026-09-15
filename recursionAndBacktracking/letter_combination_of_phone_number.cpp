@@ -37,8 +37,6 @@ void print_vector(vector<string> &v){
     cout << endl;
 }
 
-
-
 int main() {
     string digits = "234";
     vector<string> ans = letterCombinations(digits);
